@@ -349,10 +349,10 @@ jobs:
       TOXENV: ${{ matrix.toxenv }}
 
     steps:
-    - name: Switch to using Python v3.10
+    - name: Switch to using Python v3.11
       uses: actions/setup-python@v4
       with:
-        python-version: '3.10'
+        python-version: '3.11'
     - name: >-
         Calculate Python interpreter version hash value
         for use in the cache key
